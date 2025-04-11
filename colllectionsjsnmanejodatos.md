@@ -67,7 +67,7 @@ public class Main { // Inicio de la clase Main
         person.put("edad", "30");
         
         // Crear un ObjectMapper para convertir a JSON
-        ObjectMapper objectMapper = new ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper(); 
         
         // Convertir el objeto en JSON
         String jsonString = objectMapper.writeValueAsString(person);
